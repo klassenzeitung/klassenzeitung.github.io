@@ -1,2 +1,0 @@
-# klassenzeitung.github.io
-test

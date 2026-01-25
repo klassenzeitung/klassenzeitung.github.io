@@ -68,7 +68,7 @@ body {
 .background {
   position: absolute;
   inset: 0;
-  background-image: url("HINTERGRUND_URL.jpg");
+  background-image: url("/pictures/hintergrund.png");
   background-size: cover;
   background-position: center;
   filter: blur(6px) brightness(0.55);

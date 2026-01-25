@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Klassenzeitung 3C</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    h1 { color: #2c3e50; }
-    a.button { 
-      display: inline-block; 
-      padding: 15px 25px; 
-      margin: 10px; 
-      font-size: 18px; 
-      text-decoration: none; 
-      color: white; 
-      background-color: #3498db; 
-      border-radius: 8px; 
-    }
-    a.button:hover { background-color: #2980b9; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klassenzeitung – Startseite</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Icons (nur Icons, kein Framework) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <h1>Error</h1>
-  <p>Diese Seite wird aktuell gewartet.</p>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Heim</span>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-comment"></i>
+        <span>Chat</span>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-brands fa-youtube"></i>
+        <span>YouTube-Kanal</span>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>WhatsApp-Kanal</span>
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#" class="members-button">Members</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero">
+
+    <!-- Hintergrundbild -->
+    <div class="hero-bg"></div>
+
+    <div class="hero-content">
+
+      <!-- TEXT -->
+      <div class="hero-text">
+        <h1>BEISPIELÜBERSCHRIFT</h1>
+        <p>
+          Beispieltext für die Einleitung.
+          Du kannst später deinen eigenen Text einfügen.
+        </p>
+        <a href="#" class="cta-button">Beispiel-Button</a>
+      </div>
+
+      <!-- PERSONEN-SLIDER -->
+      <div class="hero-slider">
+        <div class="slider-window">
+
+          <!-- Slide 1 -->
+          <img src="BILD_URL_1.png"
+               alt="Person Pose 1"
+               class="slide active">
+
+          <!-- Slide 2 -->
+          <img src="BILD_URL_2.png"
+               alt="Person Pose 2"
+               class="slide">
+
+          <!-- Slide 3 -->
+          <img src="BILD_URL_3.png"
+               alt="Person Pose 3"
+               class="slide">
+
+        </div>
+
+        <!-- Punkte -->
+        <div class="slider-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">
+      Logo
+    </div>
+    <div class="footer-right">
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz-Einstellungen</a>
+    </div>
+  </footer>
+
 </body>
 </html>
